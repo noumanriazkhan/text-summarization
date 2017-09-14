@@ -27,14 +27,15 @@ The design of our ARA could have following goals:
 ## File Descripion
 
 The submitted task contains 04 files, details and instructions as following:
-summarizer.py is the main file which can be run from Command Prompt as 
+
+**summarizer.py** is the main file which can be run from Command Prompt as 
 
 python summarizer.py
 
 without arguments. On execution it first asks for the path where articles are location, e.g. to build on given articles, ‘./articles/’ is required. Next it asks for Topic and Sub Topics.
 
-preprocess.py contains the pre-processing function.
+**preprocess.py** contains the pre-processing function.
 
-extractive.py applies ‘TextRank’ algorithm and contains ‘summarize’ function for extractive summarization.
+**extractive.py** applies ‘TextRank’ algorithm and contains ‘summarize’ function for extractive summarization.
 
-summary.py contains the function for finding similar sentences to relevant to subtopics.
+**summary.py** contains the function for finding similar sentences to relevant to subtopics.
