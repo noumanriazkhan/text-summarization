@@ -11,11 +11,17 @@ Automated Text summarization tasks can be classified into extractive and abstrac
 ## Goals
 
 The design of our ARA could have following goals:
+
 	Reading and preprocessing documents from plain text files which includes tokenization, stop words removal, case change and stemming.
+
 	Document Clustering of input documents to group similar documents in clusters. 
+
 	Topic Modelling due to no label or keyword information, unsupervised technique to be used for topic modelling.
+
 	Topic Input from the user for topics and subtopics.
+
 	Relevant Documents retrieval against input topics and subtopics. The similarity is to be measured between input topic and topic modelling output to identify most relevant cluster.
+
 	Summarization using ‘TextRank’ approach to model text as graph networks and retrieve high importance sentences as summaries.
 
 ## File Descripion
